@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C74A41A6218C58D000E52EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A41A5218C58D000E52EDD /* AppDelegate.m */; };
+		C74A41A9218C58D000E52EDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A41A8218C58D000E52EDD /* ViewController.m */; };
+		C74A41AC218C58D000E52EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74A41AA218C58D000E52EDD /* Main.storyboard */; };
+		C74A41AE218C58D100E52EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74A41AD218C58D100E52EDD /* Assets.xcassets */; };
+		C74A41B1218C58D100E52EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74A41AF218C58D100E52EDD /* LaunchScreen.storyboard */; };
+		C74A41B4218C58D100E52EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A41B3218C58D100E52EDD /* main.m */; };
+		C74A41BC218C58EC00E52EDD /* UIViewController+LeakCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A41BB218C58EC00E52EDD /* UIViewController+LeakCheck.m */; };
+		C7D30478218C5A35000B0F3F /* NSObject+LeakCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D30477218C5A35000B0F3F /* NSObject+LeakCheck.m */; };
+		C7D3047B218C630B000B0F3F /* UINavigationController+LeakCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D3047A218C630B000B0F3F /* UINavigationController+LeakCheck.m */; };
+		C7D3047E218C65DC000B0F3F /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D3047D218C65DC000B0F3F /* KKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C74A41A1218C58D000E52EDD /* CustomLeakCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLeakCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74A41A4218C58D000E52EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C74A41A5218C58D000E52EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C74A41A7218C58D000E52EDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C74A41A8218C58D000E52EDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C74A41AB218C58D000E52EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C74A41AD218C58D100E52EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74A41B0218C58D100E52EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74A41B2218C58D100E52EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74A41B3218C58D100E52EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C74A41BA218C58EC00E52EDD /* UIViewController+LeakCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LeakCheck.h"; sourceTree = "<group>"; };
+		C74A41BB218C58EC00E52EDD /* UIViewController+LeakCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LeakCheck.m"; sourceTree = "<group>"; };
+		C7D30476218C5A35000B0F3F /* NSObject+LeakCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LeakCheck.h"; sourceTree = "<group>"; };
+		C7D30477218C5A35000B0F3F /* NSObject+LeakCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LeakCheck.m"; sourceTree = "<group>"; };
+		C7D30479218C630B000B0F3F /* UINavigationController+LeakCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LeakCheck.h"; sourceTree = "<group>"; };
+		C7D3047A218C630B000B0F3F /* UINavigationController+LeakCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LeakCheck.m"; sourceTree = "<group>"; };
+		C7D3047C218C65DC000B0F3F /* KKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
+		C7D3047D218C65DC000B0F3F /* KKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74A419E218C58D000E52EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C74A4198218C58D000E52EDD = {
+			isa = PBXGroup;
+			children = (
+				C74A41A3218C58D000E52EDD /* CustomLeakCheck */,
+				C74A41A2218C58D000E52EDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C74A41A2218C58D000E52EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74A41A1218C58D000E52EDD /* CustomLeakCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74A41A3218C58D000E52EDD /* CustomLeakCheck */ = {
+			isa = PBXGroup;
+			children = (
+				C74A41A4218C58D000E52EDD /* AppDelegate.h */,
+				C74A41A5218C58D000E52EDD /* AppDelegate.m */,
+				C74A41A7218C58D000E52EDD /* ViewController.h */,
+				C74A41A8218C58D000E52EDD /* ViewController.m */,
+				C7D3047C218C65DC000B0F3F /* KKViewController.h */,
+				C7D3047D218C65DC000B0F3F /* KKViewController.m */,
+				C7D30476218C5A35000B0F3F /* NSObject+LeakCheck.h */,
+				C7D30477218C5A35000B0F3F /* NSObject+LeakCheck.m */,
+				C74A41BA218C58EC00E52EDD /* UIViewController+LeakCheck.h */,
+				C74A41BB218C58EC00E52EDD /* UIViewController+LeakCheck.m */,
+				C7D30479218C630B000B0F3F /* UINavigationController+LeakCheck.h */,
+				C7D3047A218C630B000B0F3F /* UINavigationController+LeakCheck.m */,
+				C74A41AA218C58D000E52EDD /* Main.storyboard */,
+				C74A41AD218C58D100E52EDD /* Assets.xcassets */,
+				C74A41AF218C58D100E52EDD /* LaunchScreen.storyboard */,
+				C74A41B2218C58D100E52EDD /* Info.plist */,
+				C74A41B3218C58D100E52EDD /* main.m */,
+			);
+			path = CustomLeakCheck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C74A41A0218C58D000E52EDD /* CustomLeakCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74A41B7218C58D100E52EDD /* Build configuration list for PBXNativeTarget "CustomLeakCheck" */;
+			buildPhases = (
+				C74A419D218C58D000E52EDD /* Sources */,
+				C74A419E218C58D000E52EDD /* Frameworks */,
+				C74A419F218C58D000E52EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomLeakCheck;
+			productName = CustomLeakCheck;
+			productReference = C74A41A1218C58D000E52EDD /* CustomLeakCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C74A4199218C58D000E52EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Kinken_Yuen;
+				TargetAttributes = {
+					C74A41A0218C58D000E52EDD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C74A419C218C58D000E52EDD /* Build configuration list for PBXProject "CustomLeakCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C74A4198218C58D000E52EDD;
+			productRefGroup = C74A41A2218C58D000E52EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C74A41A0218C58D000E52EDD /* CustomLeakCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C74A419F218C58D000E52EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74A41B1218C58D100E52EDD /* LaunchScreen.storyboard in Resources */,
+				C74A41AE218C58D100E52EDD /* Assets.xcassets in Resources */,
+				C74A41AC218C58D000E52EDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74A419D218C58D000E52EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D30478218C5A35000B0F3F /* NSObject+LeakCheck.m in Sources */,
+				C7D3047E218C65DC000B0F3F /* KKViewController.m in Sources */,
+				C7D3047B218C630B000B0F3F /* UINavigationController+LeakCheck.m in Sources */,
+				C74A41A9218C58D000E52EDD /* ViewController.m in Sources */,
+				C74A41B4218C58D100E52EDD /* main.m in Sources */,
+				C74A41BC218C58EC00E52EDD /* UIViewController+LeakCheck.m in Sources */,
+				C74A41A6218C58D000E52EDD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C74A41AA218C58D000E52EDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74A41AB218C58D000E52EDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C74A41AF218C58D100E52EDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74A41B0218C58D100E52EDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C74A41B5218C58D100E52EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C74A41B6218C58D100E52EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74A41B8218C58D100E52EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23C893VL5S;
+				INFOPLIST_FILE = CustomLeakCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinkenyuen.CustomLeakCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C74A41B9218C58D100E52EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23C893VL5S;
+				INFOPLIST_FILE = CustomLeakCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinkenyuen.CustomLeakCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C74A419C218C58D000E52EDD /* Build configuration list for PBXProject "CustomLeakCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74A41B5218C58D100E52EDD /* Debug */,
+				C74A41B6218C58D100E52EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74A41B7218C58D100E52EDD /* Build configuration list for PBXNativeTarget "CustomLeakCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74A41B8218C58D100E52EDD /* Debug */,
+				C74A41B9218C58D100E52EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C74A4199218C58D000E52EDD /* Project object */;
+}
